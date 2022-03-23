@@ -1,0 +1,8 @@
+*.*
+
+!.gitignore
+!.sdkmanrc
+
+!pom.xml
+!src/*/*.xml
+!src/**/*.java
