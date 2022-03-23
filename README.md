@@ -3,6 +3,6 @@
 Create aggregated jacoco report with seperated parent/aggregator pom's.
 
 ```bash
-mvn package site site:stage
+mvn package site && mvn site:stage
 ```
 Resulted site at `target/staging`
