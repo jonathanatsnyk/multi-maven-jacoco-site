@@ -12,6 +12,10 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <jacoco.version>0.8.7</jacoco.version>
+        <site.version>3.11.0</site.version>
+        <report.version>3.2.2</report.version>
     </properties>
 
 
@@ -42,12 +46,12 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-project-info-reports-plugin</artifactId>
-                    <version>3.2.2</version>
+                    <version>${report.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-site-plugin</artifactId>
-                    <version>3.11.0</version>
+                    <version>${site.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
