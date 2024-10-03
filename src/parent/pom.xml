@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.8.2</junit.version>
-        <surfire.version>3.0.0-M5</surfire.version>
+        <surfire.version>3.0.0</surfire.version>
         <jacoco.version>0.8.7</jacoco.version>
         <site.version>3.11.0</site.version>
         <report.version>3.2.2</report.version>
